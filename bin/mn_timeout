@@ -43,7 +43,7 @@ my $output = undef;
 my $reference = undef;
 my $watchfor = 'tree';
 # Requests per seccond
-my $frequency = 10;
+my $frequency = 1;
 # if we debug
 my $debug = '';
 # Whether we do not do this term-kill stuff, and just kill processes at once
