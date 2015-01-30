@@ -51,7 +51,7 @@ my $just_kill = '';
 # Suppress printing stats when there was no resource violation
 my $info_on_success = 1;
 # Do not conceal the exit code of the controlled process if timeout kills it.
-my $confess = '';
+my $confess = 1;
 
 GetOptions(
 	'timelimit|t=f'=>\$timelimit,
